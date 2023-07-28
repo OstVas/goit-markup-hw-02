@@ -1,0 +1,132 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/* Header section */
+.header-section {
+}
+.nav-list {
+}
+.link-logo {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.text-logo {
+  color: var(--navyblue, #2e2f42);
+  font-weight: 800;
+  line-height: 1.16;
+}
+.nav-list-item .nav-link:hover,
+.nav-list-item .nav-link:focus {
+  color: #404bbf;
+}
+.nav-link {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.contacts-list {
+}
+.contacts-item .contacts-link:hover,
+.contacts-item .contacts-link:focus {
+  color: #404bbf;
+}
+.contacts-link {
+  color: var(--slate, #434455);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* <!-- Hero section  --> */
+.hero {
+  background: var(--navyblue, #2e2f42);
+  width: 1440px;
+  height: 600px;
+}
+.hero-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+}
+.text-btn {
+  color: var(--white, #fff);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* Description section */
+.desc-list {
+}
+.desc-list-item {
+}
+.desc-list-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.desc-list-text {
+  color: var(--slate, #434455);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+.section-list {
+}
+.section-list-item {
+}
+.section-list-img {
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-pic {
+}
+.team-pic-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.team-list-prof {
+  color: var(--slate, #434455);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.footer {
+  background: var(--navyblue, #2e2f42);
+  width: 1440px;
+  height: 312px;
+}
+.link-logo {
+}
+.add-text-logo {
+  color: #f4f4fd;
+  font-size: 18px;
+}
+.text {
+  color: var(--cloud, #f4f4fd);
+  font-weight: 400;
+  line-height: 1.5;
+}

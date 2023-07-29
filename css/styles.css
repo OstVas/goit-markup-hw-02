@@ -91,11 +91,15 @@ button {
   letter-spacing: 0.04em;
   background-color: var(--iris);
 }
-.text-butn:hover,
-.text-butn:focus {
+.text-btn:hover,
+.text-btn:focus {
   background-color: var(--ocean);
 }
 /* Portfolio */
+
+.title {
+  color: var(--navyblue);
+}
 .list {
 }
 .btn-content:hover,
@@ -112,17 +116,14 @@ button {
   color: var(--iris);
   background-color: var(--cloud);
 }
-.title {
-  color: var(--navyblue);
-}
 .list {
 }
-.card-list-item {
+
+.list-item {
 }
 .card-link {
 }
-.link {
-}
+
 .card-title {
   font-weight: 500;
   font-size: 20px;

@@ -91,14 +91,16 @@ button {
   letter-spacing: 0.04em;
   background-color: var(--iris);
 }
-.text-butn:hover .text-butn:focus {
+.text-butn:hover,
+.text-butn:focus {
   color: var(--ocean);
   background-color: var(--ocean);
 }
 /* Menu content Portfolio */
 .list {
 }
-.btn-content:hover .btn-content:active {
+.btn-content:hover,
+.btn-content:active {
   color: var(--white);
   background-color: var(--ocean);
 }

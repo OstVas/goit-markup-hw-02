@@ -1,16 +1,22 @@
 :root {
-  --primary-dark-color: #2e2f42;
-  --primary-white-color: #fff;
+  /* colors */
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --white: #fff;
 }
 body {
   font-family: Roboto, sans-serif;
-  color: var(--primary-dark-color);
-  background-color: var(--primary-white-color);
+  color: var(--navyblue);
+  background: #fff;
+  color: var(--slate);
 }
-a {
+.link {
   text-decoration: none;
 }
-ul {
+.list {
   list-style-type: none;
 }
 button {
@@ -24,19 +30,22 @@ button {
 }
 .link-logo {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .dark-text-logo {
-  color: var(--primary-dark-color);
+  color: var(--navyblue);
+  font-family: Raleway, sans-serif;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
-.nav-list-item .nav-link:hover,
-.nav-list-item .nav-link:focus {
-  color: #404bbf;
+.list .nav-link:hover,
+.list .nav-link:focus {
+  color: var(--ocean);
 }
 .nav-link {
   color: #2e2f42;
@@ -45,13 +54,12 @@ button {
 }
 .contacts-list {
 }
-.contacts-item .contacts-link:hover,
-.contacts-item .contacts-link:focus {
-  color: #404bbf;
+.contacts-list .contacts-link:hover,
+.contacts-list .contacts-link:focus {
+  color: var(--ocean);
 }
 .contacts-link {
-  color: var(--slate, #434455);
-  font-weight: 400;
+  color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -61,56 +69,77 @@ button {
 
 /* <!-- Hero section  --> */
 .hero {
-  background: var(--navyblue, #2e2f42);
-  width: 1440px;
-  height: 600px;
+  background: var(--navyblue);
 }
 .hero-title {
-  color: var(--white, #fff);
-  text-align: center;
+  color: var(--white);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .text-btn {
-  color: var(--white, #fff);
-  text-align: center;
+  font-family: Roboto, sans-serif;
+  color: var(--white);
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  letter-spacing: 0.04em;
+}
+.text-btn:hover.text-btn:active {
+  color: var(--ocean);
 }
 /* Menu content Portfolio */
-.list-content {
+.list {
 }
-.first-item-content {
-  background: #404bbf;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  font-weight: 500;
-  line-height: 1, 5;
-  letter-spacing: 0.04em;
+.btn-content:hover .btn-content:active {
+  color: var(--white);
+  background-color: var(--ocean);
 }
-.item-content {
-  font-weight: 500;
+.btn-content {
+  font-family: Roboto, sans-serif;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
 }
 
+.list {
+}
+.card-list-item {
+}
+.card-link {
+}
+.link {
+}
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+.card-sense {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
 /* Description section */
 
-.desc-list {
+.list {
 }
-.desc-list-item {
+.list-item {
 }
-.desc-list-subtitle {
+.list-subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.desc-list-text {
+.list-text {
   color: var(--slate, #434455);
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -118,12 +147,12 @@ button {
 
 /* What are we doing section */
 
-.section-title {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .section-list {
 }
@@ -133,10 +162,20 @@ button {
 }
 
 /* Team section */
-
+.team {
+  background-color: var(--cloud);
+}
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
 .team-list {
 }
 .team-list-item {
+  background: #fff;
 }
 .team-list-pic {
 }
@@ -153,17 +192,20 @@ button {
 }
 .footer {
   background: var(--navyblue, #2e2f42);
-  width: 1440px;
-  height: 312px;
 }
 .link-logo {
 }
 .light-text-logo {
+  font-family: Raleway, sans-serif;
   color: #f4f4fd;
+  font-weight: 800;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .text {
   color: var(--cloud, #f4f4fd);
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }

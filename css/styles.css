@@ -93,14 +93,13 @@ button {
 }
 .text-butn:hover,
 .text-butn:focus {
-  color: var(--ocean);
   background-color: var(--ocean);
 }
-/* Menu content Portfolio */
+/* Portfolio */
 .list {
 }
 .btn-content:hover,
-.btn-content:active {
+.btn-content:focus {
   color: var(--white);
   background-color: var(--ocean);
 }

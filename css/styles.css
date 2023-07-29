@@ -91,7 +91,7 @@ button {
   letter-spacing: 0.04em;
   background-color: var(--iris);
 }
-button:hover button:focus {
+.text-butn:hover .text-butn:focus {
   color: var(--ocean);
   background-color: var(--ocean);
 }
@@ -136,7 +136,9 @@ button:hover button:focus {
   color: var(--slate);
 }
 /* Description section */
-
+.title {
+  color: var(--navyblue);
+}
 .list {
 }
 .list-item {
@@ -190,6 +192,7 @@ button:hover button:focus {
 .team-list-pic {
 }
 .team-pic-name {
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
